@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.flex-box img:hover {
+  box-shadow: 0px 10px 50px violet;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+}
